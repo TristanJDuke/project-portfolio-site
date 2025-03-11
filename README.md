@@ -3,8 +3,7 @@
 
 * *Date Created*: 2025-03-09
 * *Last Modification Date*: 2025-03-11
-* *Lab URL*: <http://example.com/>
-
+* *Lab URL*: <https://papaya-empanada-8570cb.netlify.app/>
 
 ## Authors
 
