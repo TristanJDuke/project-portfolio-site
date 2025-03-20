@@ -5,7 +5,7 @@
     "author": "Tristan Duke",
     "languages": ["React", "JavaScript", "CSS"],
     "description": "A personal portfolio showcasing my projects and skills.",
-    "link": "https://github.com/TristanJDuke/project-portfolio-site"
+    "url": "https://github.com/TristanJDuke/project-portfolio-site"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "author": "Tristan Duke",
     "languages": ["JavaScript"],
     "description": "A simple bot used for a snake game competition.",
-    "link": "https://github.com/TristanJDuke/battlesnake-wormius"
+    "url": "https://github.com/TristanJDuke/battlesnake-wormius"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "author": "Tristan Duke",
     "languages": ["GDScript","Godot Engine"],
     "description": "72 Hour Game Jam game where you play as a goblin crafting potions to solve problems.",
-    "link": "https://truntules.itch.io/bubble-bubble-toil-and-trouble"
+    "url": "https://truntules.itch.io/bubble-bubble-toil-and-trouble"
   }
 ]
