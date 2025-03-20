@@ -6,7 +6,9 @@ import "@testing-library/jest-dom";
 test("renders the navigation bar", () => {
   render(
     <BrowserRouter>
-      <Header />
+      <Header theme={""} setTheme={function (): void {
+        throw new Error("Function not implemented.");
+      } } />
     </BrowserRouter>
   );
 
