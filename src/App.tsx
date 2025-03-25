@@ -4,8 +4,12 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import NotFound from './pages/NotFound'
+import Contact from "./pages/Contact";
+import Messages from "./pages/Messages";
+
 import Header from './components/Header'
 import Footer from './components/Footer'
+
 import './App.css'
 
 export default function App() {
@@ -25,8 +29,10 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/404" element={<NotFound />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/messages" element={<Messages />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
+          <Route path="/404" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

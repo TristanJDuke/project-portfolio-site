@@ -38,8 +38,13 @@ export default function Header({ theme, setTheme }: HeaderProps) {
             <li className="nav-item">
               <Link className="nav-link" to="/projects">Projects</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/messages">Messages</Link>
+            </li>
           </ul>
-
           <button onClick={toggleTheme} className="btn btn-outline-light">
             {theme === "light" ? "Dark Mode" : "Light Mode"}
           </button>

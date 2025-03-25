@@ -12,6 +12,28 @@
   --card-text: #ffffff;
 }
 
+.themed-input {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  border: 1px solid var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+.themed-input::placeholder {
+  color: var(--text-color);
+}
+.themed-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+.themed-container {
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  border: 1px solid var(--text-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
