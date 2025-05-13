@@ -3,7 +3,7 @@
 
 * *Date Created*: 2025-03-09
 * *Last Modification Date*: 2025-05-13
-* *Webpage URL*: <[https://tristanjduke.netlify.app/]>
+* *Webpage URL*: <https://tristanjduke.netlify.app/>
 
 ## Authors
 * [Tristan Duke](tr213190@dal.ca) - (Me)
