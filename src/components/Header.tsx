@@ -39,6 +39,9 @@ export default function Header({ theme, setTheme }: HeaderProps) {
               <Link className="nav-link" to="/projects">Projects</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/wordle-helper">Wordle Helper</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">

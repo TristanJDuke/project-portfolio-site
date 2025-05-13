@@ -6,6 +6,7 @@ import Projects from './pages/Projects'
 import NotFound from './pages/NotFound'
 import Contact from "./pages/Contact";
 import Messages from "./pages/Messages";
+import WordleHelper from "./pages/WordleHelper";
 
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/wordle-helper" element={<WordleHelper />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/messages" element={<Messages />} />
           <Route path="*" element={<Navigate to="/404" replace />} />
