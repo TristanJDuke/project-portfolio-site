@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 
 export default function Contact() {
+    document.title = "Contact | Portfolio";
+
     const [formData, setFormData] = useState({
         name: "",
         email: "",

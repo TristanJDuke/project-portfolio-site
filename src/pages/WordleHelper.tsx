@@ -12,7 +12,8 @@ const frequencies: Record<string, number> = rawFrequencies;
 export default function WordleHelper() {
     const [word, setWord] = useState("");
     const [result, setResult] = useState<string | null>(null);
-    
+    document.title = "Wordle Helper | Portfolio";
+
     const analyzeWord = (input: string): string => {
         const vowels = "aeiou";
         const letters = input.toLowerCase().split("");

@@ -10,6 +10,7 @@ interface Message {
 
 export default function Messages() {
     const [messages, setMessages] = useState<Message[]>([]);
+    document.title = "Messages | Portfolio";
 
     useEffect(() => {
         const fetchMessages = async () => {

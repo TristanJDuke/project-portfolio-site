@@ -1,6 +1,7 @@
 import ProjectList from "../components/ProjectList";
 
 export default function Projects() {
+  document.title = "Projects | Portfolio";
     return (
       <div>
         <h1>Projects</h1>

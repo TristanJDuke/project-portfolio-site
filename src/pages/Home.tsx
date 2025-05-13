@@ -1,10 +1,10 @@
 import WeatherWidget from "../components/WeatherWidget";
 
 export default function Home() {
+  document.title = "Home | Portfolio";
     return (
       <div>
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is my project portfolio site for CSCI3172!</p>
+        <h1>I'm Tristan Duke, this is my portfolio site.</h1>
         {/* Add Weather Widget */}
         <WeatherWidget />
       </div>
